@@ -18,6 +18,7 @@ namespace DinnerParty_first_version
             NumberOfPeople = nrOfPeople;
             FancyDecorations = fancyDecorations;
             CakeWriting = cakeWriting;
+
         }
 
 
