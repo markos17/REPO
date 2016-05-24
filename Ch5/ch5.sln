@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DinnerParty_first_version", "DinnerParty_first_version\DinnerParty_first_version.csproj", "{E43D5B38-82F4-4298-86D0-F0A468F5D1A0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OverrideVirtual", "OverrideVirtual\OverrideVirtual.csproj", "{18C2D500-AF10-4C96-AF6C-6B6455BA1D2E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{E43D5B38-82F4-4298-86D0-F0A468F5D1A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E43D5B38-82F4-4298-86D0-F0A468F5D1A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E43D5B38-82F4-4298-86D0-F0A468F5D1A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18C2D500-AF10-4C96-AF6C-6B6455BA1D2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18C2D500-AF10-4C96-AF6C-6B6455BA1D2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18C2D500-AF10-4C96-AF6C-6B6455BA1D2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18C2D500-AF10-4C96-AF6C-6B6455BA1D2E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
