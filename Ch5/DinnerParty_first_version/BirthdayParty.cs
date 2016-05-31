@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace DinnerParty_first_version
 {
-    class BirthdayParty
+    class BirthdayParty : Party
     {
-        public const int CostOfFoodPerPerson = 25;
-        public int NumberOfPeople { get; set; }
-        public bool FancyDecorations { get; set; }
+        // public const int CostOfFoodPerPerson = 25;
+        //  new   public int NumberOfPeople { get; set; }
+        //   public bool FancyDecorations { get; set; }
         public string CakeWriting { get; set; }
         //  public bool HealthyOption { get; set; }
         public BirthdayParty(int nrOfPeople, bool fancyDecorations, string cakeWriting)
@@ -62,23 +62,23 @@ namespace DinnerParty_first_version
             }
         }
 
-        private decimal CalculateCostOfDecorations()
-        {
-            decimal costOfDecorations;
-            if (FancyDecorations)
-                costOfDecorations = (NumberOfPeople * 15.00M) + 50M;
-            else
-                costOfDecorations = (NumberOfPeople * 7.50M) + 30M;
-            return costOfDecorations;
-        }
+        //private decimal CalculateCostOfDecorations()
+        //{
+        //    decimal costOfDecorations;
+        //    if (FancyDecorations)
+        //        costOfDecorations = (NumberOfPeople * 15.00M) + 50M;
+        //    else
+        //        costOfDecorations = (NumberOfPeople * 7.50M) + 30M;
+        //    return costOfDecorations;
+        //}
 
-        public decimal Cost
+        override public decimal Cost
         {
             get
             {
-                decimal totalCost;
-                totalCost = CalculateCostOfDecorations();
-                totalCost += CostOfFoodPerPerson * NumberOfPeople;
+                decimal totalCost = base.Cost;
+                //   totalCost = CalculateCostOfDecorations();
+                //  totalCost += CostOfFoodPerPerson * NumberOfPeople;
                 decimal cakeCost;
                 if (CakeSize() == 8)
                     cakeCost = 40M + ActualLength * .25M;

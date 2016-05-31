@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DinnerParty_first_version
 {
-    class DinnerParty
+    class DinnerParty : Party
     {
         public DinnerParty()
         {
@@ -20,13 +20,13 @@ namespace DinnerParty_first_version
             FancyDecorations = fancyDecoration;
         }
 
-        public const int CostOfFoodPerPerson = 25;
+        //    public const int CostOfFoodPerPerson = 25;
         // private int numberOfPeople;
-        public int NumberOfPeople { get; set; }
-        public bool FancyDecorations { get; set; }
+        //    public int NumberOfPeople { get; set; }
+        //     public bool FancyDecorations { get; set; }
         public bool HealthyOption { get; set; }
 
-        public decimal CostOfBeveragesPerPerson;
+        //   public decimal CostOfBeveragesPerPerson;
         public decimal CostOfDecorations = 0;
 
         //public void SetHealthyOption(bool healthyOption)
@@ -44,7 +44,7 @@ namespace DinnerParty_first_version
         private decimal CalculateCostOfBeveragesPerPerson()
         {
 
-            if(HealthyOption)
+            if (HealthyOption)
             {
                 return 5.00M;
             }
@@ -54,39 +54,33 @@ namespace DinnerParty_first_version
             }
         }
 
-        private decimal CalculateCostOfDecorations()
-        {
-            if (this.FancyDecorations)
-            {
-               return (NumberOfPeople * 15.00M) + 50M;
-            }
-            else
-            {
-                return (NumberOfPeople * 7.50M) + 30M;
-            }
-        }
+        //private decimal CalculateCostOfDecorations()
+        //{
+        //    if (this.FancyDecorations)
+        //    {
+        //       return (NumberOfPeople * 15.00M) + 50M;
+        //    }
+        //    else
+        //    {
+        //        return (NumberOfPeople * 7.50M) + 30M;
+        //    }
+        //}
 
-        public decimal Cost
+        override public decimal Cost
         {
             get
             {
-                decimal totalCost = CalculateCostOfDecorations() +
-       ((CalculateCostOfBeveragesPerPerson() + CostOfFoodPerPerson)
-           * NumberOfPeople);
+                decimal totalCost = base.Cost;
+                // decimal totalCost = CalculateCostOfDecorations() 
+                totalCost += CalculateCostOfBeveragesPerPerson() * NumberOfPeople;
 
                 if (this.HealthyOption)
                 {
-                     totalCost *= .95M;
+                    totalCost *= .95M;
                 }
-                //else
-                //{
-                //     totalCost;
-                //}
-
-                if (NumberOfPeople > 12)
-                    totalCost += 100;
 
                 return totalCost;
+
             }
         }
         //public decimal CalculateCost()

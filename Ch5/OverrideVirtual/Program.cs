@@ -14,6 +14,8 @@ namespace OverrideVirtual
             Safe safe = new Safe();
             JewelThief jewelThief = new JewelThief();
             jewelThief.OpenSafe(safe, owner);
+            Locksmith locks = new Locksmith();
+            locks.OpenSafe(safe, owner);
             Console.ReadKey();
         }
     }
