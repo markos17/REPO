@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OverrideVirtual", "Override
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InheritanceSubClassBaseClass", "InheritanceSubClassBaseClass\InheritanceSubClassBaseClass.csproj", "{1C2B06B1-C8D5-4947-941F-2B66FED90DB7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ch5InheritanceBees", "ch5InheritanceBees\ch5InheritanceBees.csproj", "{B934EA01-97D6-4B8A-A060-BF8D6BDE722E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{1C2B06B1-C8D5-4947-941F-2B66FED90DB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C2B06B1-C8D5-4947-941F-2B66FED90DB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C2B06B1-C8D5-4947-941F-2B66FED90DB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B934EA01-97D6-4B8A-A060-BF8D6BDE722E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B934EA01-97D6-4B8A-A060-BF8D6BDE722E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B934EA01-97D6-4B8A-A060-BF8D6BDE722E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B934EA01-97D6-4B8A-A060-BF8D6BDE722E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
