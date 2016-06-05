@@ -43,9 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FunnyFunny.cs" />
     <Compile Include="IClown.cs" />
+    <Compile Include="IScaryClown.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ScaryScary.cs" />
     <Compile Include="TallGuy.cs" />
   </ItemGroup>
   <ItemGroup>
