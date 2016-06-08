@@ -19,6 +19,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ch7house", "ch7house\ch7hou
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ch7houseHideAndSeek", "ch7houseHideAndSeek\ch7houseHideAndSeek.csproj", "{D5E8CF28-018D-42CF-8437-06F7A10B08DA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ch8CardsEnum", "ch8CardsEnum\ch8CardsEnum.csproj", "{0A4EB213-5C3B-47C1-AC86-85950A010BD4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ch8DuckCollection", "ch8DuckCollection\ch8DuckCollection.csproj", "{B5AD06CD-0731-4271-AF61-423913201948}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +61,14 @@ Global
 		{D5E8CF28-018D-42CF-8437-06F7A10B08DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D5E8CF28-018D-42CF-8437-06F7A10B08DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D5E8CF28-018D-42CF-8437-06F7A10B08DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A4EB213-5C3B-47C1-AC86-85950A010BD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A4EB213-5C3B-47C1-AC86-85950A010BD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A4EB213-5C3B-47C1-AC86-85950A010BD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A4EB213-5C3B-47C1-AC86-85950A010BD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5AD06CD-0731-4271-AF61-423913201948}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5AD06CD-0731-4271-AF61-423913201948}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5AD06CD-0731-4271-AF61-423913201948}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5AD06CD-0731-4271-AF61-423913201948}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
