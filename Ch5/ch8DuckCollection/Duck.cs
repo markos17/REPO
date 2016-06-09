@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ch8DuckCollection
 {
-    public class Duck //: IComparable<Duck>
+    public class Duck : IComparable<Duck>
     {
         public int Size;
         public KindOfDuck Kind;
@@ -19,6 +19,11 @@ namespace ch8DuckCollection
                 return -1;
             else
                 return 0;
+        }
+
+        public override string ToString()
+        {
+            return "A " +  Size + " inch " + Kind.ToString();
         }
     }
 }

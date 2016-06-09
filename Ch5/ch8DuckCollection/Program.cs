@@ -8,7 +8,7 @@ namespace ch8DuckCollection
 {
     class Program
     {
-        static void Main(string[] args)
+          static void Main(string[] args)
         {
             List<Duck> ducks = new List<Duck>() {
             new Duck() { Kind = KindOfDuck.Mallard, Size = 17 },
@@ -19,10 +19,28 @@ namespace ch8DuckCollection
             new Duck() { Kind = KindOfDuck.Decoy, Size = 13 },
             };
 
-            
-            
-            ducks.Sort();
+            PrintDucks(ducks);
+
+           // ducks.Sort();
+            DuckComparerBySize comparer = new DuckComparerBySize();
+            ducks.Sort(comparer);
+            Console.WriteLine(comparer.Compare(ducks[0], ducks[1]));
+            PrintDucks(ducks);
+
+            ducks.GetEnumerator()
+
             Console.ReadKey();
+        }
+
+
+
+        public static void PrintDucks(List<Duck> ducks)
+        {
+            foreach (Duck duck in ducks)
+                //    Console.WriteLine(duck.Size.ToString() + "-inch " + duck.Kind.ToString());
+                Console.WriteLine(duck);
+            Console.WriteLine("end of ducks!");
+
         }
     }
 }
