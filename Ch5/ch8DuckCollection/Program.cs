@@ -27,7 +27,7 @@ namespace ch8DuckCollection
             Console.WriteLine(comparer.Compare(ducks[0], ducks[1]));
             PrintDucks(ducks);
 
-            ducks.GetEnumerator()
+         //   ducks.GetEnumerator()
 
             Console.ReadKey();
         }
