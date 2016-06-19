@@ -24,7 +24,7 @@ namespace ch8DuckIEnumerable
             List<Bird> birds = new List<Bird>();
             birds.Add(new Bird() { Name = "Feathers" });
             birds.AddRange(upcastDuck);
-            birds.Add(new Penguin() { Name = "Pinwinek" });
+            birds.Add(new Penguin() { Name = "Pingwinek" });
             foreach (Bird ptak in birds)
             {
                 Console.WriteLine(ptak);

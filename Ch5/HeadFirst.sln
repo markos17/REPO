@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ch8DuckIEnumerable", "ch8Du
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ch8CardsOverloadedMethods", "ch8CardsOverloadedMethods\ch8CardsOverloadedMethods.csproj", "{B9054980-404A-4D82-938B-E8C9928A1DD0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ch8TwoDecks", "ch8TwoDecks\ch8TwoDecks.csproj", "{F8D6371C-8988-4B3F-8099-9300CC701447}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{B9054980-404A-4D82-938B-E8C9928A1DD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B9054980-404A-4D82-938B-E8C9928A1DD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B9054980-404A-4D82-938B-E8C9928A1DD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8D6371C-8988-4B3F-8099-9300CC701447}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8D6371C-8988-4B3F-8099-9300CC701447}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8D6371C-8988-4B3F-8099-9300CC701447}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8D6371C-8988-4B3F-8099-9300CC701447}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
