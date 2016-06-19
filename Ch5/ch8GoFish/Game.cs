@@ -39,6 +39,18 @@ namespace ch8GoFish
             // This is where the game starts—this method's only called at the beginning
             // of the game. Shuffle the stock, deal five cards to each player, then use a
             // foreach loop to call each player's PullOutBooks() method.
+            stock.Shuffle();
+            for (int i = 0; i < 5; i++)
+                foreach (var player in players)
+                {
+                    player.TakeCard(stock.Deal());
+                
+                }
+            foreach (Player player in players)
+            {
+                PullOutBooks(player);
+            }
+
         }
         public bool PlayOneRound(int selectedPlayerCard)
         {
