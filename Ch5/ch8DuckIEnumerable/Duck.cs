@@ -10,7 +10,7 @@ namespace ch8DuckIEnumerable
     {
         public int Size;
         public KindOfDuck Kind;
-        public string Name { get; set; }
+        new public string Name { get; set; }
 
         public int CompareTo(Duck other)
         {

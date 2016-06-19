@@ -31,6 +31,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ch8CardsOverloadedMethods",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ch8TwoDecks", "ch8TwoDecks\ch8TwoDecks.csproj", "{F8D6371C-8988-4B3F-8099-9300CC701447}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ch8DictionaryJerseyNumbers", "ch8DictionaryJerseyNumbers\ch8DictionaryJerseyNumbers.csproj", "{777C1CF7-0C5B-49CE-9B45-324B0E2F6390}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ch8GoFish", "ch8GoFish\ch8GoFish.csproj", "{E9221887-A80B-4654-A347-8D5E841EE436}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +97,14 @@ Global
 		{F8D6371C-8988-4B3F-8099-9300CC701447}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F8D6371C-8988-4B3F-8099-9300CC701447}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F8D6371C-8988-4B3F-8099-9300CC701447}.Release|Any CPU.Build.0 = Release|Any CPU
+		{777C1CF7-0C5B-49CE-9B45-324B0E2F6390}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{777C1CF7-0C5B-49CE-9B45-324B0E2F6390}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{777C1CF7-0C5B-49CE-9B45-324B0E2F6390}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{777C1CF7-0C5B-49CE-9B45-324B0E2F6390}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9221887-A80B-4654-A347-8D5E841EE436}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9221887-A80B-4654-A347-8D5E841EE436}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9221887-A80B-4654-A347-8D5E841EE436}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9221887-A80B-4654-A347-8D5E841EE436}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
