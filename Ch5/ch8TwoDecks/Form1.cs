@@ -15,7 +15,7 @@ namespace ch8TwoDecks
         Deck deck1;
         Deck deck2;
         Random random = new Random();
-
+         
         public Form1()
         {
             InitializeComponent();
