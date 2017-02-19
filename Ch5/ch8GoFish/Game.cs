@@ -63,7 +63,7 @@ namespace ch8GoFish
             // have gone, sort the human player's hand (so it looks nice in the form).
             // Then check the stock to see if it's out of cards. If it is, reset the
             // TextBox on the form to say, "The stock is out of cards. Game over!" and return
-            // true. Otherwise, the game isn't over yet, so return false.
+            // true. Otherwise, the game isn't over yet, so return false.  
             return true;
         }
         public bool PullOutBooks(Player player)
