@@ -26,7 +26,6 @@ namespace ch9SimpleFormOpenTextFile
             openFileDialog1.Filter = "*.txt|*.pdf";
             if (openFileDialog1.ShowDialog() == DialogResult.OK)
             {
-
                 name = openFileDialog1.FileName;
                 textBox1.Clear();
                 textBox1.Text = File.ReadAllText(name);
