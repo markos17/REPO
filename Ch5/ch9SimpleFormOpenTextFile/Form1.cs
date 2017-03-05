@@ -19,7 +19,7 @@ namespace ch9SimpleFormOpenTextFile
         {
             InitializeComponent();
         }
-
+        //dell test
         private void btnOpen_Click(object sender, EventArgs e)
         {
             openFileDialog1.InitialDirectory = "c:\\";
