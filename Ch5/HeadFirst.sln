@@ -45,6 +45,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ch9CardsSerialize", "ch9Car
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ch10BreakfastForLumberjacks", "ch10BreakfastForLumberjacks\ch10BreakfastForLumberjacks.csproj", "{FCB0A533-C2B8-432B-AD0A-F55187D96374}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ch10WelcomeToSloppyJoes", "ch10WelcomeToSloppyJoes\ch10WelcomeToSloppyJoes.csproj", "{F58CEF68-DA1F-4BF3-84C1-8B0630DF4E65}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -135,6 +137,10 @@ Global
 		{FCB0A533-C2B8-432B-AD0A-F55187D96374}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FCB0A533-C2B8-432B-AD0A-F55187D96374}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FCB0A533-C2B8-432B-AD0A-F55187D96374}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F58CEF68-DA1F-4BF3-84C1-8B0630DF4E65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F58CEF68-DA1F-4BF3-84C1-8B0630DF4E65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F58CEF68-DA1F-4BF3-84C1-8B0630DF4E65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F58CEF68-DA1F-4BF3-84C1-8B0630DF4E65}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
