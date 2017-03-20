@@ -4,10 +4,11 @@ using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.ComponentModel;
 
 namespace ch10WelcomeToSloppyJoes
 {
-    class MenuMaker
+    class MenuMaker : INotifyPropertyChanged
     {
         private Random random = new Random();
         private List<String> Meats = new List<String>() { "Roast beef", "Salami", "Turkey", "Ham", "Pastrami" };
@@ -16,6 +17,7 @@ namespace ch10WelcomeToSloppyJoes
         private List<String> Breads = new List<String>() { "rye", "white", "wheat", "pumpernickel",
                    "italian bread", "a roll" };
 
+        public event PropertyChangedEventHandler PropertyChanged;
 
         public int NumberOfItems { get; set; }
         public ObservableCollection<MenuItem> Menu { get; private set; }
@@ -44,6 +46,17 @@ namespace ch10WelcomeToSloppyJoes
                 Menu.Add(CreateMenuItem());
             }
             GeneratedDate = DateTime.Now;
+            OnPropertyChanged("GeneratedDate");
+        }
+
+        private void OnPropertyChanged(string propertyName)
+        {
+            PropertyChangedEventHandler propertyChangedEvent = PropertyChanged;
+            if (propertyChangedEvent != null)
+            {
+                propertyChangedEvent(this, new PropertyChangedEventArgs(propertyName));
+            }
+            //PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
     }
 }

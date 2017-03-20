@@ -6,16 +6,33 @@
         xmlns:local="clr-namespace:ch10WelcomeToSloppyJoes"
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
-    <StackPanel Grid.Row="1" Margin="20,0" x:Name="pageLayoutStackPanel">
+    <Window.Resources>
+        <local:MenuMaker x:Key="menuMaker"></local:MenuMaker>
+    </Window.Resources>
+    <StackPanel Grid.Row="1" Margin="20,0" x:Name="pageLayoutStackPanel" DataContext="{StaticResource ResourceKey=menuMaker}">
         <StackPanel Orientation="Horizontal" Margin="0,0,0,10">
             <StackPanel Margin="0,0,10,0">
                 <TextBlock>Number of items</TextBlock>
-                <TextBox Text="{Binding NumberOfItems}" Width="100" Margin="0,0,0,0"></TextBox>
+                <TextBox Text="{Binding NumberOfItems, Mode=TwoWay}" Width="100" Margin="0,0,0,0"></TextBox>
             </StackPanel>
             <Button x:Name="newMenu" VerticalAlignment="Bottom"
             Click="newMenu_Click" Content="Make a new menu"/>
         </StackPanel>
-        <ListView ItemsSource="{Binding Menu}" Margin="0,0,20,0"/>
+        <ListView ItemsSource="{Binding Menu}" Margin="0,0,20,0">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock>
+                        <Run Text="{Binding Bread}" Foreground="Red"/>
+                        <Run Text=" on "/>
+                           <Run Text="{Binding Meat}" Foreground="Aqua"/>
+                        </TextBlock>
+                        <Ellipse Fill="DarkSlateBlue" Height="Auto" Width="10" Margin="10,0"/>
+                        <Button Content="{Binding Condiment}" FontFamily="Segoe Script"/>
+                    </StackPanel>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
         <TextBlock>
             <Run Text="This menu was generated on "/>
             <Run Text="{Binding GeneratedDate}"/>
