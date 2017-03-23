@@ -22,12 +22,14 @@ namespace ch10WelcomeToSloppyJoes
         public int NumberOfItems { get; set; }
         public ObservableCollection<MenuItem> Menu { get; private set; }
         public DateTime GeneratedDate { get; set; }
+        public string Test { get; set; }
 
         public MenuMaker()
         {
             Menu = new ObservableCollection<MenuItem>();
             NumberOfItems = 10;
             UpdateMenu();
+            Test = "one";
         }
 
         private MenuItem CreateMenuItem()

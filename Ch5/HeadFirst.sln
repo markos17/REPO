@@ -47,6 +47,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ch10BreakfastForLumberjacks
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ch10WelcomeToSloppyJoes", "ch10WelcomeToSloppyJoes\ch10WelcomeToSloppyJoes.csproj", "{F58CEF68-DA1F-4BF3-84C1-8B0630DF4E65}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ch11WpfAsync", "ch11WpfAsync\ch11WpfAsync.csproj", "{6A843839-896F-473D-AD8D-CC2F6BF6108E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ch11WpfGuySerializer", "ch11WpfGuySerializer\ch11WpfGuySerializer.csproj", "{4D08588A-8C96-4E74-9534-08C5E1F366D3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -141,6 +145,14 @@ Global
 		{F58CEF68-DA1F-4BF3-84C1-8B0630DF4E65}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F58CEF68-DA1F-4BF3-84C1-8B0630DF4E65}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F58CEF68-DA1F-4BF3-84C1-8B0630DF4E65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A843839-896F-473D-AD8D-CC2F6BF6108E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A843839-896F-473D-AD8D-CC2F6BF6108E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A843839-896F-473D-AD8D-CC2F6BF6108E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A843839-896F-473D-AD8D-CC2F6BF6108E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D08588A-8C96-4E74-9534-08C5E1F366D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D08588A-8C96-4E74-9534-08C5E1F366D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D08588A-8C96-4E74-9534-08C5E1F366D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D08588A-8C96-4E74-9534-08C5E1F366D3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
