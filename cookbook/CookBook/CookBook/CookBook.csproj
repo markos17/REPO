@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="Ch1_10_FixedSizeCollection.cs" />
     <Compile Include="Ch1_10_FixedSizeCollection_Generic.cs" />
+    <Compile Include="Ch1_11_SortedListDesc.cs" />
     <Compile Include="Dimension.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

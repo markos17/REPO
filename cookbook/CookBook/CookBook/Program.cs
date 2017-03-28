@@ -11,7 +11,8 @@ namespace CookBook
         static void Main(string[] args)
         {
             // Ch1_4_ReturnDimensions();
-            TestCh1_12();
+            //TestCh1_10();
+            TestCh1_11();
         }
 
         private static void Ch1_4_ReturnDimensions()
@@ -26,7 +27,7 @@ namespace CookBook
             Console.ReadLine();
         }
 
-        public static void TestCh1_12()
+        public static void TestCh1_10()
         {
             Ch1_10_FixedSizeCollection fixA = new Ch1_10_FixedSizeCollection(2);
             Console.WriteLine(fixA);
@@ -67,6 +68,22 @@ namespace CookBook
 
             Console.WriteLine(genA);
             Console.WriteLine(genB);
+        }
+        public static void TestCh1_11()
+        {
+            var lista = Ch1_11_SortedListDesc.data;
+            foreach (KeyValuePair<int, string> kvp in lista)
+            {
+                Console.WriteLine($"\t {kvp.Key}\t{kvp.Value}");  
+                Console.WriteLine();              
+            }
+
+            var odwroconaLista = lista.OrderByDescending(k => k.Key);
+            foreach (KeyValuePair<int, string> kvp in odwroconaLista)
+            {
+                Console.WriteLine($"\t {kvp.Key}\t{kvp.Value}");
+            }
+            Console.ReadLine();
         }
 
     }
