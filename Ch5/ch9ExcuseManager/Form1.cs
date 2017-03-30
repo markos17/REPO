@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.IO;
 using System.Linq;
+using System.Security.AccessControl;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -80,13 +81,13 @@ namespace ch9ExcuseManager
 
         private void btnOpen_Click(object sender, EventArgs e)
         {
-            if(CheckChanged())
+            if (CheckChanged())
             {
                 openFileDialog1.InitialDirectory = selectedFolder;
                 openFileDialog1.Filter = "Text1 files (*.txt)|*.txt|All1 files (*.*)|*.*";
                 openFileDialog1.FileName = txtExcuse.Text + ".txt";
                 DialogResult result = openFileDialog1.ShowDialog();
-                if(result == DialogResult.OK)
+                if (result == DialogResult.OK)
                 {
                     currentExcuse = new Excuse(openFileDialog1.FileName);
                     UpdateForm(false);
@@ -109,7 +110,9 @@ namespace ch9ExcuseManager
 
         private void btnRandom_Click(object sender, EventArgs e)
         {
-            if (CheckChanged())
+            if (Directory.GetFiles(selectedFolder).Length == 0)
+                MessageBox.Show("There are no excuse files in the selected folder!");
+            else if (CheckChanged())
             {
                 currentExcuse = new Excuse(random, selectedFolder);
                 UpdateForm(false);

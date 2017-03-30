@@ -4,6 +4,8 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Runtime.Serialization;
+using System.Windows.Forms;
 
 namespace ch9ExcuseManager
 {
@@ -32,12 +34,20 @@ namespace ch9ExcuseManager
 
         public void OpenFile(string excusePath)
         {
-            this.ExcusePath = excusePath;
-            using (StreamReader reader = new StreamReader(excusePath))
+            try
             {
-                Description = reader.ReadLine();
-                Results = reader.ReadLine();
-                LastUsed = Convert.ToDateTime(reader.ReadLine());
+                this.ExcusePath = excusePath;
+                using (StreamReader reader = new StreamReader(excusePath))
+                {
+                    Description = reader.ReadLine();
+                    Results = reader.ReadLine();
+                    LastUsed = Convert.ToDateTime(reader.ReadLine());
+                }
+            }
+            catch (SerializationException)
+            {
+                MessageBox.Show("Unable to read " + excusePath);
+                LastUsed = DateTime.Now;
             }
         }
 
