@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26228.4
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ch5DinnerParty_first_version", "DinnerParty_first_version\ch5DinnerParty_first_version.csproj", "{E43D5B38-82F4-4298-86D0-F0A468F5D1A0}"
 EndProject
@@ -50,6 +50,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ch11WpfAsync", "ch11WpfAsync\ch11WpfAsync.csproj", "{6A843839-896F-473D-AD8D-CC2F6BF6108E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ch11WpfGuySerializer", "ch11WpfGuySerializer\ch11WpfGuySerializer.csproj", "{4D08588A-8C96-4E74-9534-08C5E1F366D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ch12DisposePlay", "ch12DisposePlay\ch12DisposePlay.csproj", "{BE9102F8-B5D8-4B4B-936F-ABF9FCA20FD8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -153,6 +155,10 @@ Global
 		{4D08588A-8C96-4E74-9534-08C5E1F366D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D08588A-8C96-4E74-9534-08C5E1F366D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D08588A-8C96-4E74-9534-08C5E1F366D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE9102F8-B5D8-4B4B-936F-ABF9FCA20FD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE9102F8-B5D8-4B4B-936F-ABF9FCA20FD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE9102F8-B5D8-4B4B-936F-ABF9FCA20FD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE9102F8-B5D8-4B4B-936F-ABF9FCA20FD8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -16,7 +16,7 @@ namespace ch5InheritanceBeesPart2
             WeightMg = weightMg;
         }
 
-        virtual public double HoneyConsumptionRate()
+        public virtual double HoneyConsumptionRate()
         {
             return WeightMg * HoneyUnitsConsumedPerMg;
         }
