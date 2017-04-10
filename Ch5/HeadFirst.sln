@@ -55,6 +55,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ch13Struct", "ch13Struct\ch
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ch14LinqPlays", "ch14LinqPlays\ch14LinqPlays.csproj", "{2A68534D-15BF-45FF-B422-66C6F4DC95B4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ch14JimmysComics", "ch14JimmysComics\JimmysComics\ch14JimmysComics.csproj", "{0C818568-4DC0-4FA9-ADAF-F4BFCF38FB14}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -165,6 +167,10 @@ Global
 		{2A68534D-15BF-45FF-B422-66C6F4DC95B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A68534D-15BF-45FF-B422-66C6F4DC95B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A68534D-15BF-45FF-B422-66C6F4DC95B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C818568-4DC0-4FA9-ADAF-F4BFCF38FB14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C818568-4DC0-4FA9-ADAF-F4BFCF38FB14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C818568-4DC0-4FA9-ADAF-F4BFCF38FB14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C818568-4DC0-4FA9-ADAF-F4BFCF38FB14}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
