@@ -51,6 +51,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ch11WpfAsync", "ch11WpfAsyn
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ch11WpfGuySerializer", "ch11WpfGuySerializer\ch11WpfGuySerializer.csproj", "{4D08588A-8C96-4E74-9534-08C5E1F366D3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ch13Struct", "ch13Struct\ch13Struct.csproj", "{325FC002-19E3-47EF-84BD-A6B0E56A6E39}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -153,6 +155,10 @@ Global
 		{4D08588A-8C96-4E74-9534-08C5E1F366D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D08588A-8C96-4E74-9534-08C5E1F366D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D08588A-8C96-4E74-9534-08C5E1F366D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{325FC002-19E3-47EF-84BD-A6B0E56A6E39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{325FC002-19E3-47EF-84BD-A6B0E56A6E39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{325FC002-19E3-47EF-84BD-A6B0E56A6E39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{325FC002-19E3-47EF-84BD-A6B0E56A6E39}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
