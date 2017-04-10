@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26228.4
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ch5DinnerParty_first_version", "DinnerParty_first_version\ch5DinnerParty_first_version.csproj", "{E43D5B38-82F4-4298-86D0-F0A468F5D1A0}"
 EndProject
@@ -52,6 +52,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ch11WpfGuySerializer", "ch11WpfGuySerializer\ch11WpfGuySerializer.csproj", "{4D08588A-8C96-4E74-9534-08C5E1F366D3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ch13Struct", "ch13Struct\ch13Struct.csproj", "{325FC002-19E3-47EF-84BD-A6B0E56A6E39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ch14LinqPlays", "ch14LinqPlays\ch14LinqPlays.csproj", "{2A68534D-15BF-45FF-B422-66C6F4DC95B4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -159,6 +161,10 @@ Global
 		{325FC002-19E3-47EF-84BD-A6B0E56A6E39}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{325FC002-19E3-47EF-84BD-A6B0E56A6E39}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{325FC002-19E3-47EF-84BD-A6B0E56A6E39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A68534D-15BF-45FF-B422-66C6F4DC95B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A68534D-15BF-45FF-B422-66C6F4DC95B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A68534D-15BF-45FF-B422-66C6F4DC95B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A68534D-15BF-45FF-B422-66C6F4DC95B4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
