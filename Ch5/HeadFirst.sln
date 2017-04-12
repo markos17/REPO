@@ -55,6 +55,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ch12DisposePlay", "ch12Disp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ch13PoolPuzzle", "ch13PoolPuzzle\PoolPuzzle\ch13PoolPuzzle.csproj", "{2C9EE4A2-86C3-4D80-90C6-2C2DC4A493BC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ch13Struct", "ch13Struct\ch13Struct.csproj", "{325FC002-19E3-47EF-84BD-A6B0E56A6E39}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -165,6 +167,10 @@ Global
 		{2C9EE4A2-86C3-4D80-90C6-2C2DC4A493BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C9EE4A2-86C3-4D80-90C6-2C2DC4A493BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C9EE4A2-86C3-4D80-90C6-2C2DC4A493BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{325FC002-19E3-47EF-84BD-A6B0E56A6E39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{325FC002-19E3-47EF-84BD-A6B0E56A6E39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{325FC002-19E3-47EF-84BD-A6B0E56A6E39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{325FC002-19E3-47EF-84BD-A6B0E56A6E39}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
