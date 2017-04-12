@@ -65,6 +65,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ch15EventHandlerFirstProg",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ch15SimpleEventWinForm", "ch15SimpleEventWinForm\ch15SimpleEventWinForm.csproj", "{10E2E594-D02A-4E2D-9C57-A42E99377F51}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ch15DelegateFirstConsoleApp", "ch15DelegateFirstConsoleApp\ch15DelegateFirstConsoleApp.csproj", "{B0D26C5A-2AF2-4A6A-A6EC-FC66F0A1F032}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ch15DelegateRestaurantWinForm", "ch15DelegateRestaurantWinForm\ch15DelegateRestaurantWinForm.csproj", "{14AA7100-D15B-4FDD-9D54-8D83A7C50341}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -195,6 +199,14 @@ Global
 		{10E2E594-D02A-4E2D-9C57-A42E99377F51}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{10E2E594-D02A-4E2D-9C57-A42E99377F51}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{10E2E594-D02A-4E2D-9C57-A42E99377F51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0D26C5A-2AF2-4A6A-A6EC-FC66F0A1F032}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0D26C5A-2AF2-4A6A-A6EC-FC66F0A1F032}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0D26C5A-2AF2-4A6A-A6EC-FC66F0A1F032}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0D26C5A-2AF2-4A6A-A6EC-FC66F0A1F032}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14AA7100-D15B-4FDD-9D54-8D83A7C50341}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14AA7100-D15B-4FDD-9D54-8D83A7C50341}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14AA7100-D15B-4FDD-9D54-8D83A7C50341}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14AA7100-D15B-4FDD-9D54-8D83A7C50341}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
