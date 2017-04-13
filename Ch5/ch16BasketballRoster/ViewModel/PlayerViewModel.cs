@@ -8,8 +8,8 @@ namespace ch16BasketballRoster.ViewModel
 {
     class PlayerViewModel
     {
-        public string Name;
-        public int Number;
+        public string Name { get; set; }
+        public int Number { get; set; }
 
         public PlayerViewModel(string name, int number)
         {

@@ -11,17 +11,16 @@ namespace ch16BasketballRoster.ViewModel
 {
     class RoosterViewModel
     {
-        public ObservableCollection<PlayerViewModel> Starters;
-        public ObservableCollection<PlayerViewModel> Bench;
-
+        public ObservableCollection<PlayerViewModel> Starters { get; set; }
+        public ObservableCollection<PlayerViewModel> Bench { get; set; }
         private Rooster _rooster;
-
         private string _teamName;
         public string TeamName
         {
             get { return _teamName; }
             set { _teamName = value; }
         }
+
 
         public RoosterViewModel(Model.Rooster roosterModel)
         {
@@ -44,11 +43,11 @@ namespace ch16BasketballRoster.ViewModel
                 Starters.Add(new PlayerViewModel(player.Name, player.Number));
             }
 
-            //var benchPlayer = _rooster.Players.Where(s => s.Starter == false).Select(player => player);
-            //foreach (Player player in benchPlayer)
-            //{
-            //    Starters.Add(new PlayerViewModel(player.Name, player.Number));
-            //}
+            var benchPlayer = _rooster.Players.Where(s => s.Starter == false).Select(player => player);
+            foreach (Player player in benchPlayer)
+            {
+                Bench.Add(new PlayerViewModel(player.Name, player.Number));
+            }
         }
     }
 }
