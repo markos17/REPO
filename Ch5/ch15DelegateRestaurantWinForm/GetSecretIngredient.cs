@@ -6,5 +6,6 @@ using System.Threading.Tasks;
 
 namespace ch15DelegateRestaurantWinForm
 {
+   // delegate string GetSecretIngredient(int amount);
     delegate string GetSecretIngredient(int amount);
 }

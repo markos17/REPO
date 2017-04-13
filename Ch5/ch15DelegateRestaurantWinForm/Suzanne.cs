@@ -28,7 +28,7 @@ namespace ch15DelegateRestaurantWinForm
         {
             get
             {
-                return new GetSecretIngredient(AmySecretIngredient);
+                return AmySecretIngredient;
             }
         }
 
@@ -36,11 +36,11 @@ namespace ch15DelegateRestaurantWinForm
         {
             if (amount < 10)
             {
-                return amount.ToString() + " puszek sardynki -- więcej!";
+                return amount + " puszek sardynki -- więcej!";
             }
             else
             {
-                return amount.ToString() + " puszek sardynki";
+                return amount + " puszek sardynki";
 
             }
         }

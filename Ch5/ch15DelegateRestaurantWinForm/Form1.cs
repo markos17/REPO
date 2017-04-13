@@ -36,7 +36,7 @@ namespace ch15DelegateRestaurantWinForm
 
         private void button3_Click(object sender, EventArgs e)
         {
-            ingredientMethod = new GetSecretIngredient(amy.AmySecretIngredientMethod);
+            ingredientMethod = amy.AmySecretIngredientMethod;
         }
     }
 }
